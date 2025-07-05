@@ -13,6 +13,7 @@ Este proyecto reemplaza el firmware original por:
 - Eliminación de todas las dependencias problemáticas del firmware original.  
 - Corrección de errores conocidos (como los problemas con el Z-offset).  
 - Un firmware de pantalla personalizado que incluye la mayoría de las funciones originales.  
+- Multi Idiomas
 
 Tortillery es totalmente personalizable e incluye archivos básicos para un funcionamiento listo para imprimir.  
 
@@ -26,7 +27,7 @@ Además, hemos preparado una guía de instalación para facilitarte el proceso.
 
 Puedes descargar el proyecto completo (incluyendo el firmware, guías, configuraciones y backups) desde el siguiente enlace:
 
-👉 [**Descargar Tortillery desde Google Drive**] https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing
+👉 [**Descargar Tortillery desde Google Drive**](https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing)
 ---
 
 ## Agradecimientos
@@ -49,5 +50,16 @@ Comenta cualquier problema en la sección “Tortillery” del grupo de Telegram
 [**Soporte Artillery X4 (Sección Tortillery)**](https://t.me/SoporteArtilleryX4)
 
 Si quieres añadir, modificar o mejorar el firmware, estaremos encantados de colaborar contigo.
+
+---
+
+## 📜 Licencia
+
+Este proyecto incluye componentes con las siguientes licencias:
+
+- **GPL-2.0 or later** (armbian-mkspi)
+- **Apache-2.0** (KlipperLCD)
+
+Por compatibilidad, **Tortillery en su conjunto está licenciado bajo [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)**.
 
 ---
