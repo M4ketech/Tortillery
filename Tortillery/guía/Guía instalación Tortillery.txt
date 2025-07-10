@@ -1,0 +1,24 @@
+- 1 Hacer copia de seguridad de vuestra Memoria (Con Win32DiskImager u otros programas)
+- 2 Copiar Backup Tortillery a la memoria mmc con el lector MKS (usar Balenaetcher u otros programas)
+- 3 En un pendrive vacío, copiar los archivos Klipper.bin, 800_480.tft, tortillery.update y wifi.cfg .
+- 4 Modificar el archivo wifi con el nombre de vuestra red y contraseña . 
+- 5 Insertar el usb y encender la impresora, esperar unos 30 segundos y veréis que la pantalla se pondrá en modo flash.
+- 6 Esperar que termine la actualización de la pantalla, cuando sale 100% o la imagen de "Tortillery" podéis desconectar el usb y reiniciar la impresora.
+- 7 Verificar si podéis acceder a mainsail desde la web poniendo en la barra tortillery.local . si no se abre mainsail, probablemente el wifi no se ha conectado.***
+- 8 Mainsail dará un error, es normal.
+- 9 Según vuestro modelo de impresora(PRO o PLUS), renombrar el archivo correcto "artillery_X4_XXX.cfg" a printer.cfg, eliminar el archivo del otro modelo de impresora
+- 10 Según vuestro modelo de impresora( PRO o PLUS ), renombrar el archivo correcto "macros_X4_PLUS.cfg" a macros.cfg, eliminar el archivo del otro modelo de impresora
+- 11 Reiniciar Host Control ( ver foto ) …
+- 12 Esperar que reinicie el host ( unos 30 seg. ) y actualizar la pagina tortillery.local.
+
+Notas:
+
+- En OrcaSlicer, en conexión wifi, podéis usar tortillery.local en vez de poner la IP de la impresora.
+- Se recomienda no unir el archivo MCU_ID.cfg con Printer.cfg
+
+*** Si no se conecta con el archivo wifi desde usb, verificar que el nombre red y contraseña correspondan exactamente a vuestra red, no dejar espacios después de = … 
+Si no conseguís conectar a través del usb, tenéis que conectar via serial con nmtui. 
+Nombre usuario: mks
+Contraseña:  makerbase
+usuario root : root
+Contraseña Root: makerbase 
