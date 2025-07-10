@@ -4,62 +4,61 @@
 
 # Tortillery
 
-**Tortillery** es un firmware *custom* (aún en versión de prueba) para las impresoras **Artillery Sidewinder X4 Pro** y **X4 Plus** (incluidas también las versiones **S1**).
+**Tortillery** It is a *custom* firmware (still in trial version) for **Artillery Sidewinder X4 Pro** y **X4 Plus** printers (also including versions **S1**).
 
-Este proyecto reemplaza el firmware original por:
+This project replaces the original firmware with:
+- A more recent Armbian. 
+- The latest version of Klipper (v13).  
+- Removal of all problematic dependencies from the original firmware.  
+- Fixed known bugs (such as Z-offset issues).
+- A custom display firmware that includes most of the original features.  
+- Multi Languages
 
-- Un Armbian más reciente.  
-- La última versión de Klipper (v13).  
-- Eliminación de todas las dependencias problemáticas del firmware original.  
-- Corrección de errores conocidos (como los problemas con el Z-offset).  
-- Un firmware de pantalla personalizado que incluye la mayoría de las funciones originales.  
-- Multi Idiomas
+Tortillery is fully customizable and includes basic files for print-ready operation.  
 
-Tortillery es totalmente personalizable e incluye archivos básicos para un funcionamiento listo para imprimir.  
+The ability to resume printing after a power outage is not included. If you experience power issues, using a UPS is recommended.  
 
-No se ha incluido la función de reanudar impresión tras un corte de energía. Si tienes problemas de suministro eléctrico, se recomienda utilizar un UPS/SAI.  
-
-Además, hemos preparado una guía de instalación para facilitarte el proceso.
-
----
-
-## 📥 Descarga del proyecto completo
-
-Puedes descargar el proyecto completo (incluyendo el firmware, guías, configuraciones y backups) desde el siguiente enlace:
-
-👉 [**Descargar Tortillery desde Google Drive**](https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing)
----
-
-## Agradecimientos
-
-Aunque el proyecto comenzó hace más de un año, solo en los últimos meses hemos podido completarlo. Este trabajo no habría sido posible sin la ayuda de:  
-
-- **Urtzi**, **Repuk**, **Vin** (por sus aportaciones en el grupo de Telegram).  
-- **Redrathnure**, por su fantástico [Armbian no oficial](https://github.com/redrathnure/armbian-mkspi).  
-- **Joakimtoe**, por su versión de firmware para la pantalla Neptune 3 Pro ([KlipperLCD](https://github.com/joakimtoe/KlipperLCD)).  
-
-Gracias a todos ellos por hacer que Tortillery sea una realidad.  
+In addition, we have prepared an installation guide to make the process easier for you.
 
 ---
 
-## Estado del proyecto
+## 📥 Download the the backup
 
-Actualmente se ha comprobado el funcionamiento completo del firmware. No obstante, pueden surgir pequeños errores.
+You can download the backup from the following link:
 
-Comenta cualquier problema en la sección “Tortillery” del grupo de Telegram:  
-[**Soporte Artillery X4 (Sección Tortillery)**](https://t.me/SoporteArtilleryX4)
+👉 [**Download Tortillery from Google Drive**](https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing)
+---
 
-Si quieres añadir, modificar o mejorar el firmware, estaremos encantados de colaborar contigo.
+## Acknowledgments
+
+Although the project began over a year ago, we've only been able to complete it in the last few months. This work would not have been possible without the support of: 
+
+- **Urtzi**, **Repuk**, **Vin** (for their contributions to the Telegram group).  
+- **Redrathnure**, for its fantastic [Armbian no oficial](https://github.com/redrathnure/armbian-mkspi).  
+- **Joakimtoe**, for its firmware version for the Neptune 3 Pro display ([KlipperLCD](https://github.com/joakimtoe/KlipperLCD)).  
+
+Thanks to all of them for making Tortillery a reality.
 
 ---
 
-## 📜 Licencia
+## Project status
 
-Este proyecto incluye componentes con las siguientes licencias:
+The firmware has currently been fully tested for functionality. However, minor errors may occur.
+
+Please comment on any issues in the “Tortillery” section of the Telegram group: 
+[**Artillery Support X4 (Tortillery Section)**](https://t.me/SoporteArtilleryX4)
+
+If you'd like to add, modify, or improve the firmware, we'd be happy to work with you.
+
+---
+
+## 📜 License
+
+This project includes components with the following licenses:
 
 - **GPL-2.0 or later** (armbian-mkspi)
 - **Apache-2.0** (KlipperLCD)
 
-Por compatibilidad, **Tortillery en su conjunto está licenciado bajo [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)**.
+For compatibility, **Tortillery as a whole is licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)**.
 
 ---
