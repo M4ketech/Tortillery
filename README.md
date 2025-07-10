@@ -26,7 +26,7 @@ In addition, we have prepared an installation guide to make the process easier f
 
 You can download the backup from the following link:
 
-👉 [**Download Tortillery from Google Drive**](https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing)
+👉 [**Download backup from Google Drive**](https://drive.google.com/drive/folders/1a4KYi0Am1W0iZ-H57P1Rgm2st5KSfFTt?usp=sharing)
 ---
 
 ## Acknowledgments
